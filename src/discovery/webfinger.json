@@ -1,0 +1,7 @@
+{
+    "subject": "https://ump.example.org",
+    "links": [{
+        "rel": "http://github.com/mudcoders/ump",
+        "href": "https://ump.example.org/ump"
+    }]
+}

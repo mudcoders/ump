@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [Discovery](Discovery.md)
+* [Discovery](discovery/Discovery.md)
 * [Authentication](Authentication.md)
