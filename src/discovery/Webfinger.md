@@ -2,8 +2,8 @@
 Initial discovery is handled by making a [WebFinger](https://webfinger.net/) request to the domain hosting the game. This is done by making a simple HTTP request to */.well-known/webfinger* on the Domain hosting the game. The WebFinger specification requires that the *resource* parameter is provided, but his has no benefit to UMP and so can be set to any valid string.
 
 For example:
-```http
-GET /.well-known/webfinger?resource=graham%40grahamcox.co.uk
+```HTTP
+GET /.well-known/webfinger?resource=graham%40grahamcox.co.uk HTTP/1.1
 Host: ump.example.org
 Accept: application/jrd+json
 ```
