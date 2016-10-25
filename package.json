@@ -1,0 +1,20 @@
+{
+  "name": "ump",
+  "version": "0.0.1",
+  "description": "Universal Multi-User-* Protocol",
+  "scripts": {
+    "postinstall": "gitbook build",
+    "start": "gitbook serve"
+  },
+  "author": [
+    "Graham Cox <graham@grahamcox.co.uk>"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.0"
+  },
+  "dependencies": {
+    "gitbook-plugin-footnote-string-to-number": "0.0.2",
+    "gitbook-plugin-include-codeblock": "^2.0.0"
+  }
+}

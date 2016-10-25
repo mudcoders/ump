@@ -1,0 +1,11 @@
+{
+    "root": "src",
+    "structure": {
+    },
+    "title": "Universal Multi-User-* Protocol",
+    "language": "en",
+    "plugins": [
+        "footnote-string-to-number",
+        "include-codeblock"
+    ]
+}
