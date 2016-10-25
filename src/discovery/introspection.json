@@ -1,0 +1,13 @@
+{
+  "name": "UMP Example",
+  "version": "1.2.3",
+  "umpVersion": "0.0.1",
+  "description": "A simple example game using the UMP protocol",
+  "contact": [
+    "Graham Cox <graham@grahamcox.co.uk>"
+  ],
+  "urls": {
+    "resourceBase": "https://ump.example.org/ump/api",
+    "websocket": "wss://ump.example.org"
+  }
+}

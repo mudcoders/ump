@@ -6,6 +6,7 @@
     "language": "en",
     "plugins": [
         "footnote-string-to-number",
-        "include-codeblock"
+        "include-codeblock",
+        "toggle-chapters"
     ]
 }
