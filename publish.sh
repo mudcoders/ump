@@ -10,7 +10,9 @@ mv _book/* $TEMP_DIR
 rm -rf _book
 
 # Check out the target branch
-git checkout gh-pages
+git branch -l | grep gh-pages && git branch -D gh-pages
+git checkout origin/gh-pages
+git checkout -b gh-pages
 
 # Wipe the old commit out
 rm -rf *
