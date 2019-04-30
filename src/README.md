@@ -1,2 +1,2 @@
-# Introduction
-This is where the Introduction goes.
+# Initial page
+
