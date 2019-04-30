@@ -1,9 +1,7 @@
 #!/bin/bash
 set -e
 
-# Build the book
-npm install
-
-# And publish it
-npm install -g gh-pages
-gh-pages -d _book
+if [ ! -z "$GH_REPO" ]; then
+    npm install -g gh-pages
+    gh-pages -d _book -r $GH_REPO
+fi
